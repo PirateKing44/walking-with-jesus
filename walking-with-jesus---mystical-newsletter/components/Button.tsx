@@ -12,7 +12,7 @@ export const Button: React.FC<ButtonProps> = ({
   className = '', 
   ...props 
 }) => {
-  const baseStyles = "relative px-8 py-3 font-display font-medium tracking-wider transition-all duration-300 transform active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed group overflow-hidden";
+  const baseStyles = "relative px-8 py-3 font-display font-medium tracking-wider transition-all duration-300 transform active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed group overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-mystic-gold focus:ring-offset-2 focus:ring-offset-stone-900";
   
   const variants = {
     primary: "bg-mystic-gold text-mystic-900 hover:bg-[#c5a028] shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:shadow-[0_0_30px_rgba(212,175,55,0.5)]",

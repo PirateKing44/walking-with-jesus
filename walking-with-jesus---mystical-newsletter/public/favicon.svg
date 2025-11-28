@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b45309;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#1c1917" stroke="url(#goldGradient)" stroke-width="2"/>
+  
+  <!-- Cross symbol -->
+  <path d="M 50 20 L 50 80" stroke="url(#goldGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 30 40 L 70 40" stroke="url(#goldGradient)" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Small decorative dots -->
+  <circle cx="50" cy="50" r="3" fill="#d4af37" opacity="0.5"/>
+</svg>
